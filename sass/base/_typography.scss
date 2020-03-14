@@ -1,0 +1,89 @@
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  .heading-primary-name {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
+
+    animation: aboutSection;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  .heading-primary-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
+
+    animation-name: aboutSection;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+}
+
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, $color-primary, $color-primary-light);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+
+  @include respond(tab-port) {
+    font-size: 4rem;
+  }
+  @include respond(phone) {
+    font-size: 3.5rem;
+  }
+
+  animation: aboutSection;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  &:hover {
+    cursor: pointer;
+    transform: scaleX(1.2) scaleY(1.4);
+  }
+}
+
+.heading-tertiary {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 3.5rem;
+    padding: 1.5rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.9rem;
+  &:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+  @include respond(phone) {
+    padding: 1.5rem;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+}

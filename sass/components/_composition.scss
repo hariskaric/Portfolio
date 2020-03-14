@@ -1,0 +1,30 @@
+.box-animated {
+  animation: aboutSection;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+.composition {
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 0.1), rgba($color-primary-light, 0.3));
+  box-shadow: 0 1.5rem 40px rgba(134, 118, 118, 0.07);
+  border-radius: 10px;
+  padding: 2.5rem;
+  transition: all 0.2s;
+  animation-name: aboutSection;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+
+  @include respond(phone) {
+    img {
+      width: 8.5rem;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 2.5rem 80px rgba(15, 15, 15, 0.2);
+    transform: scale(1.05);
+  }
+}
