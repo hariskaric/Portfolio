@@ -455,27 +455,27 @@ body {
 }
 
 .card .card-picture.card-picture-1 {
-  background-image: url("/img/projects/project1.jpg");
+  background-image: url("img/projects/project1.jpg");
 }
 
 .card .card-picture.card-picture-2 {
-  background-image: url("/img/projects/project2.jpg");
+  background-image: url("img/projects/project2.jpg");
 }
 
 .card .card-picture.card-picture-3 {
-  background-image: url("/img/projects/project3.jpg");
+  background-image: url("img/projects/project3.jpg");
 }
 
 .card .card-picture.card-picture-4 {
-  background-image: url("/img/projects/project4.jpg");
+  background-image: url("img/projects/project4.jpg");
 }
 
 .card .card-picture.card-picture-5 {
-  background-image: url("/img/projects/project5.jpg");
+  background-image: url("img/projects/project5.jpg");
 }
 
 .card .card-picture.card-picture-6 {
-  background-image: url("/img/projects/project6.jpg");
+  background-image: url("img/projects/project6.jpg");
 }
 
 .card .card-heading {
@@ -606,8 +606,8 @@ body {
 
 .header {
   height: 95vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(129, 199, 132, 0.8)), to(rgba(0, 188, 212, 0.8))), url("/img/hero.jpg");
-  background-image: linear-gradient(to right bottom, rgba(129, 199, 132, 0.8), rgba(0, 188, 212, 0.8)), url("/img/hero.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(129, 199, 132, 0.8)), to(rgba(0, 188, 212, 0.8))), url("img/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(129, 199, 132, 0.8), rgba(0, 188, 212, 0.8)), url("img/hero.jpg");
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
