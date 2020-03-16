@@ -455,27 +455,27 @@ body {
 }
 
 .card .card-picture.card-picture-1 {
-  background-image: url("../../img/projects/project1.jpg");
+  background-image: url("../img/projects/project1.jpg");
 }
 
 .card .card-picture.card-picture-2 {
-  background-image: url("../../img/projects/project2.jpg");
+  background-image: url("../img/projects/project2.jpg");
 }
 
 .card .card-picture.card-picture-3 {
-  background-image: url("../../img/projects/project3.jpg");
+  background-image: url("../img/projects/project3.jpg");
 }
 
 .card .card-picture.card-picture-4 {
-  background-image: url("../../img/projects/project4.jpg");
+  background-image: url("../img/projects/project4.jpg");
 }
 
 .card .card-picture.card-picture-5 {
-  background-image: url("../../img/projects/project5.jpg");
+  background-image: url("../img/projects/project5.jpg");
 }
 
 .card .card-picture.card-picture-6 {
-  background-image: url("../../img/projects/project6.jpg");
+  background-image: url("../img/projects/project6.jpg");
 }
 
 .card .card-heading {
